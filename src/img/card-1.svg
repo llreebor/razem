@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="103" height="104" viewBox="0 0 103 104" fill="none">
+  <path d="M66 68.25C84.8467 68.25 100.125 52.9717 100.125 34.125C100.125 15.2783 84.8467 0 66 0C47.1533 0 31.875 15.2783 31.875 34.125C31.875 52.9717 47.1533 68.25 66 68.25Z" fill="#EDF6F8"/>
+  <path d="M30.25 104V92.625C30.25 76.375 41.625 78 53 71.5" stroke="#434D5E" stroke-width="2" stroke-miterlimit="10"/>
+  <path d="M79 71.5C90.375 78 101.75 76.375 101.75 92.625V104" stroke="#434D5E" stroke-width="2" stroke-miterlimit="10"/>
+  <path d="M72.5 78L66 74.75L59.5 78L53 71.5L56.25 66.625L66 68.25L75.75 66.625L79 71.5L72.5 78Z" stroke="#434D5E" stroke-width="2" stroke-miterlimit="10"/>
+  <path d="M74.125 60.125V66.625" stroke="#434D5E" stroke-width="2" stroke-miterlimit="10"/>
+  <path d="M57.875 66.625V60.125" stroke="#434D5E" stroke-width="2" stroke-miterlimit="10"/>
+  <path d="M64.375 89.375H67.625" stroke="#434D5E" stroke-width="2" stroke-miterlimit="10"/>
+  <path d="M64.375 82.875H67.625" stroke="#434D5E" stroke-width="2" stroke-miterlimit="10"/>
+  <path d="M80.625 39C80.625 29.1281 75.8719 24.375 66 24.375C56.1281 24.375 51.375 29.1281 51.375 39V45.5C53 56.875 57.875 60.125 57.875 60.125C61.125 61.75 66 61.75 66 61.75C66 61.75 70.875 61.75 74.125 60.125C74.125 60.125 79 56.875 80.625 45.5V39Z" stroke="#434D5E" stroke-width="2" stroke-miterlimit="10"/>
+  <path d="M51.375 39L57.875 35.75L66 39L74.125 42.25L80.625 39" stroke="#434D5E" stroke-width="2" stroke-miterlimit="10"/>
+  <path d="M35.125 73.125H33.5C15.5503 73.125 1 58.5747 1 40.625C1 22.6753 15.5503 8.125 33.5 8.125C43.3865 8.125 51.9145 12.5353 57.875 19.5" stroke="#434D5E" stroke-width="2" stroke-miterlimit="10"/>
+  <path d="M43.25 104V94.25" stroke="#434D5E" stroke-width="2" stroke-miterlimit="10"/>
+  <path d="M88.75 104V94.25" stroke="#434D5E" stroke-width="2" stroke-miterlimit="10"/>
+  <path d="M40 34.125C40 30.5354 37.0896 27.625 33.5 27.625C29.9104 27.625 27 30.5354 27 34.125C27 37.7146 30.25 39 33.5 40.625C36.75 42.25 40 43.5354 40 47.125C40 50.7146 37.0896 53.625 33.5 53.625C29.9104 53.625 27 50.7146 27 47.125" stroke="#434D5E" stroke-width="2" stroke-miterlimit="10"/>
+  <path d="M33.5 27.625V22.75" stroke="#434D5E" stroke-width="2" stroke-miterlimit="10"/>
+  <path d="M33.5 53.625V58.5" stroke="#434D5E" stroke-width="2" stroke-miterlimit="10"/>
+</svg>

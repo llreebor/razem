@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'Fixel';
+		src: url('../fonts/FixelText-Medium.eot');
+		src: local('Fixel Text Medium'), local('FixelText-Medium'),
+			url('../fonts/FixelText-Medium.eot?#iefix')
+				format('embedded-opentype'),
+			url('../fonts/FixelText-Medium.woff2') format('woff2'),
+			url('../fonts/FixelText-Medium.woff') format('woff'),
+			url('../fonts/FixelText-Medium.ttf') format('truetype');
+		font-weight: 500;
+		font-style: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Fixel';
+		src: url('../fonts/FixelText-Regular.eot');
+		src: local('Fixel Text Regular'), local('FixelText-Regular'),
+			url('../fonts/FixelText-Regular.eot?#iefix')
+				format('embedded-opentype'),
+			url('../fonts/FixelText-Regular.woff2') format('woff2'),
+			url('../fonts/FixelText-Regular.woff') format('woff'),
+			url('../fonts/FixelText-Regular.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Fixel';
+		src: url('../fonts/FixelText-SemiBold.eot');
+		src: local('Fixel Text Semi Bold'), local('FixelText-SemiBold'),
+			url('../fonts/FixelText-SemiBold.eot?#iefix')
+				format('embedded-opentype'),
+			url('../fonts/FixelText-SemiBold.woff2') format('woff2'),
+			url('../fonts/FixelText-SemiBold.woff') format('woff'),
+			url('../fonts/FixelText-SemiBold.ttf') format('truetype');
+		font-weight: 600;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	body {
+		@apply relative font-nunito;
+	}
+	.container {
+		@apply lg:!max-w-[1252px];
+	}
+	h1 {
+		@apply font-fixel text-[46px] font-semibold leading-[1.21] text-darkblue md:text-[60px] md:leading-normal;
+	}
+	h2 {
+		@apply font-fixel text-[28px] font-semibold leading-[1.28] text-darkblue lg:text-4xl;
+	}
+	h4 {
+		@apply text-base font-semibold uppercase tracking-[0.6px] text-lightgrey;
+	}
+	p {
+		@apply text-base text-grey md:text-lg;
+	}
+	section {
+		@apply py-6 lg:py-[60px];
+	}
+}
+
+@layer components {
+	/* Button */
+	.btn {
+		@apply flex w-full justify-center rounded-xl bg-primary px-[26px] py-3 text-center font-semibold text-white shadow-button transition-colors hover:bg-primary-hovered md:max-w-fit md:px-10;
+	}
+}
+@media only screen and (max-width: 767.99px) {
+	.vacancy-filters li {
+		display: block;
+	}
+	.vacancy-filters li:nth-child(-n + 8) {
+		display: none;
+	}
+}
+
+.swiper-wrapper {
+	transition-timing-function: linear !important;
+}
+.swiper-scrollbar-vacancy {
+	height: 1px !important;
+	border-radius: 16px !important;
+	background: #d1e9f0 !important;
+}
+.swiper-scrollbar-drag {
+	background: #238caa !important;
+}
+.swiper-button-disabled path {
+	fill: #dfe3e9;
+}
+.swiper-pagination-bullet {
+	width: 7px !important;
+	height: 7px !important;
+	background: #238caa !important;
+	opacity: 0.1 !important;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+	opacity: 1 !important;
+}
+
+/* Marquee */
+.marquee {
+	--gap: 48px;
+	display: flex;
+	overflow: hidden;
+	gap: var(--gap);
+	max-width: 800px;
+}
+.marquee__content {
+	flex-shrink: 0;
+	display: flex;
+	min-width: 100%;
+	gap: var(--gap);
+	list-style: none;
+	animation: 20s scrollToLeft infinite linear;
+}
+
+@keyframes scrollToLeft {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(calc(-100% - var(--gap)));
+	}
+}
+@keyframes scrollToRight {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(calc(-100% - var(--gap)));
+	}
+}

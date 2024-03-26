@@ -1,0 +1,38 @@
+@font-face {
+	font-family: 'Fixel Text';
+	src: url('FixelText-Medium.eot');
+	src: local('Fixel Text Medium'), local('FixelText-Medium'),
+		url('FixelText-Medium.eot?#iefix') format('embedded-opentype'),
+		url('FixelText-Medium.woff2') format('woff2'),
+		url('FixelText-Medium.woff') format('woff'),
+		url('FixelText-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Fixel Text';
+	src: url('FixelText-Regular.eot');
+	src: local('Fixel Text Regular'), local('FixelText-Regular'),
+		url('FixelText-Regular.eot?#iefix') format('embedded-opentype'),
+		url('FixelText-Regular.woff2') format('woff2'),
+		url('FixelText-Regular.woff') format('woff'),
+		url('FixelText-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Fixel Text Semi';
+	src: url('FixelText-SemiBold.eot');
+	src: local('Fixel Text Semi Bold'), local('FixelText-SemiBold'),
+		url('FixelText-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('FixelText-SemiBold.woff2') format('woff2'),
+		url('FixelText-SemiBold.woff') format('woff'),
+		url('FixelText-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
