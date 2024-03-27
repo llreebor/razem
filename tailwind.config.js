@@ -31,6 +31,7 @@ module.exports = {
 				gold: '0px 3px 4px 0px rgba(255, 198, 87, 0.2)',
 				'slide-vacancy':
 					'0px 6px 10px 0px rgba(73, 73, 73, 0.04), 0px 1px 18px 0px rgba(73, 73, 73, 0.02);',
+				'slide-payments': '0px 1px 3px 0px rgba(0, 0, 0, 0.08)',
 			},
 			backgroundImage: {
 				'basic-gradient':

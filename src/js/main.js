@@ -91,6 +91,22 @@ if (document.querySelector('.swiper-vacancy')) {
 	})
 }
 
+// Payment slider
+if (document.querySelector('.swiper-payments')) {
+	new Swiper('.swiper-payments', {
+		breakpoints: {
+			320: {
+				slidesPerView: 1.1,
+				spaceBetween: 16,
+			},
+			768: {
+				slidesPerView: 2,
+				spaceBetween: 16,
+			},
+		},
+	})
+}
+
 // Accordion
 if (document.querySelector('.accordion')) {
 	function accordion() {

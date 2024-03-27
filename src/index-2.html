@@ -123,10 +123,10 @@
 					</section>
 				</div>
 
-				<!-- TODO:Переваги -->
+				<!-- Переваги -->
 				<section class="overflow-hidden">
 					<div class="md:container">
-						<div class="space-y-8 pb-20 xl:pb-10">
+						<div class="space-y-8">
 							<div class="pb-[140px] md:pb-24 xl:pb-4">
 								<div
 									class="relative mt-8 flex flex-col gap-8 rounded-[20px] bg-basic-gradient px-4 py-6 pb-[129px] md:mr-12 md:flex-row md:px-12 md:py-[56px] lg:pb-[113px]">
@@ -183,15 +183,16 @@
 								</div>
 							</div>
 
-							<div class="grid gap-6 lg:grid-cols-2 lg:gap-10">
+							<div
+								class="z-0 grid gap-6 lg:grid-cols-2 lg:gap-10">
 								<div
-									class="relative mt-8 flex max-h-[700px] flex-col gap-8 rounded-[20px] bg-lightblue px-4 py-6 md:px-12 md:py-[56px] lg:max-h-[660px]">
+									class="relative mt-8 flex flex-col gap-8 px-4 py-6 after:absolute after:left-0 after:top-0 after:-z-10 after:h-[570px] after:w-full after:rounded-[20px] after:bg-lightblue md:px-12 md:py-[56px] lg:after:h-[700px]">
 									<div class="space-y-2">
 										<h4 class="text-[#87AFBF]">
 											РЕальні відгуки
 										</h4>
 										<p
-											class="text-2xl font-semibold text-lightblack md:text-[32px] md:leading-snug">
+											class="text-2xl font-semibold text-lightblack md:text-[32px] md:leading-snug lg:pr-8">
 											Працюйте з рекрутерами, котрі добре
 											себе зарекомендували
 										</p>
@@ -302,14 +303,13 @@
 												<div
 													class="flex size-8 shrink-0 items-center justify-center overflow-hidden rounded-full bg-[#F7F8FB]">
 													<img
-														class="w-4"
-														src="./img/avatar.png"
+														src="./img/Ellipse.png"
 														alt="user" />
 												</div>
 												<div>
 													<p
 														class="text-sm font-bold text-lightblack">
-														Alisa Abramenko
+														Praca Group
 													</p>
 													<p
 														class="mt-[6px] text-sm text-main">
@@ -317,7 +317,7 @@
 														робить роботу не
 														уникаючи складної
 														роботи, як це переважно
-														роблять інш
+														роблять інші.
 													</p>
 													<div
 														class="mt-2 flex justify-between">
@@ -339,14 +339,15 @@
 									</div>
 								</div>
 								<div
-									class="relative mt-8 flex max-h-[560px] flex-col gap-8 rounded-[20px] bg-lightblue px-4 py-6 md:max-h-[660px] md:px-12 md:py-[56px]">
+									class="relative mt-8 flex flex-col gap-8 overflow-hidden px-4 py-6 after:absolute after:left-0 after:top-0 after:-z-10 after:h-[570px] after:w-full after:rounded-[20px] after:bg-lightblue md:px-12 md:py-[56px] lg:after:h-[700px]">
 									<div class="space-y-2">
 										<h4 class="text-[#87AFBF]">
-											Зручний розрахунок
+											Розрахунок в один клік
 										</h4>
 										<p
 											class="text-2xl font-semibold text-lightblack md:text-[32px] md:leading-snug">
-											Отримуйте виплати прямо через сайт
+											Оплачуйте винагороду рекрутерам
+											зручним методом через наш сайт
 										</p>
 									</div>
 
@@ -355,8 +356,62 @@
 										<div class="flex gap-1">
 											<p
 												class="text-lg font-bold text-lightblack">
-												Отримання виплати
+												Виплати
 											</p>
+										</div>
+
+										<!-- Slider -->
+										<div
+											class="rounded-2xl bg-lightblue p-3">
+											<!-- Slider main container -->
+											<div class="swiper swiper-payments">
+												<!-- Additional required wrapper -->
+												<div class="swiper-wrapper">
+													<!-- Slides -->
+													<div class="swiper-slide">
+														<div
+															class="rounded-2xl bg-white p-5">
+															<img
+																src="./img/payments-icon-1.svg"
+																alt="icon" />
+
+															<p
+																class="mt-4 text-xs text-light">
+																Затверджено до
+																виплати
+															</p>
+															<p
+																class="mt-2 text-2xl font-semibold leading-none text-lightblack">
+																<span>
+																	23 320,00
+																</span>
+																zł
+															</p>
+														</div>
+													</div>
+													<div class="swiper-slide">
+														<div
+															class="rounded-2xl bg-white p-5">
+															<img
+																src="./img/payments-icon-1.svg"
+																alt="icon" />
+
+															<p
+																class="mt-4 text-xs text-light">
+																Затверджено до
+																виплати
+															</p>
+															<p
+																class="mt-2 text-2xl font-semibold leading-none text-lightblack">
+																<span>
+																	423 320,00
+																</span>
+																zł
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
 										</div>
 
 										<div>
@@ -392,6 +447,35 @@
 													<span>3 350</span>
 													<span>zł/м</span>
 												</p>
+											</div>
+
+											<div class="mt-5 flex gap-3">
+												<div
+													class="size-12 overflow-hidden rounded-full">
+													<img
+														src="./img/avatar-big.png"
+														alt="avatar" />
+												</div>
+												<div class="space-y-[6px]">
+													<p
+														class="text-sm text-main">
+														Аліса Довгань
+													</p>
+
+													<div class="flex gap-[6px]">
+														<img
+															src="./img/like.svg"
+															alt="like" />
+														<p
+															class="text-xs text-main">
+															4.68
+															<span
+																class="text-light">
+																(541)
+															</span>
+														</p>
+													</div>
+												</div>
 											</div>
 
 											<div
@@ -463,13 +547,6 @@
 													</div>
 												</div>
 											</div>
-
-											<div class="-mx-6 mb-5 mt-8">
-												<img
-													class="w-full max-w-full"
-													src="./img/cards-svg.svg"
-													alt="img" />
-											</div>
 										</div>
 									</div>
 								</div>
@@ -478,7 +555,7 @@
 					</div>
 				</section>
 
-				<!-- TODO: Для кого цей портал? -->
+				<!-- Для кого цей портал? -->
 				<section>
 					<div class="container">
 						<div class="space-y-6">
@@ -493,22 +570,25 @@
 							<div class="space-y-8">
 								<div
 									class="flex items-center justify-center rounded-[20px] p-14 shadow-card">
-									<img src="./img/card-1.svg" alt="img" />
+									<img src="./img/card-2.svg" alt="img" />
 								</div>
 								<p
 									class="text-center text-lg font-semibold text-darkblue">
-									Для рекрутерів-фрілансерів
+									Для агентств, котрі платять винагороду за
+									знайденого працівника
 								</p>
 							</div>
 
 							<div class="space-y-8">
 								<div
 									class="flex items-center justify-center rounded-[20px] p-14 shadow-card">
-									<img src="./img/card-2.svg" alt="img" />
+									<img src="./img/card-4.svg" alt="img" />
 								</div>
 								<p
 									class="text-center text-lg font-semibold text-darkblue">
-									Для рекрутингових агентств
+									Для прямих роботодавців, котрі готові
+									заплатити винагороду за знайденого
+									працівника
 								</p>
 							</div>
 							<div class="space-y-8">
@@ -521,7 +601,7 @@
 								</div>
 								<p
 									class="text-center text-lg font-semibold text-darkblue">
-									Шукаєте рекрутерів?
+									Хочете шукати працівника за винагороду?
 									<a
 										class="text-primary underline-offset-4 transition-colors hover:text-primary-hovered hover:underline"
 										href="#">
@@ -533,7 +613,7 @@
 					</div>
 				</section>
 
-				<!-- TODO: Питання та відповіді -->
+				<!-- Питання та відповіді -->
 				<section>
 					<div class="container">
 						<div class="space-y-6">
@@ -541,7 +621,11 @@
 							<p class="text-center">
 								Якщо не знайшли відповідь на ваше запитання в
 								списку, ви можете написати нам на
-								info@rehire.com
+								<a
+									class="hover:text-primary-hovered"
+									href="mailto:support@rehire.work">
+									support@rehire.work
+								</a>
 							</p>
 						</div>
 
@@ -554,10 +638,8 @@
 								<div
 									class="accordion-trigger flex w-full items-center justify-between gap-2 overflow-hidden py-5 md:gap-10 md:py-6">
 									<span class="font-semibold md:text-xl">
-										Я вже маю обліковий запис на вашій
-										сторінці як працівник, чи можу я там
-										шукати роботодавців, щоб пропонувати
-										свої послуги?
+										Хто може користуватись послугами сервісу
+										Rehire?
 									</span>
 									<!-- Icon -->
 									<div class="flex">
@@ -584,10 +666,14 @@
 										<div class="-mt-1 pb-5 md:pb-6">
 											<p
 												class="text-sm text-[#5D6D85] md:text-xl">
-												Lorem ipsum dolor sit amet
-												consectetur adipisicing elit.
-												Cupiditate aut reprehenderit
-												quisquam ad quae porro?
+												Сервісом можуть користуватись
+												усі компанії, які відкриті для
+												співпраці з
+												рекрутерами-фрілансерами або
+												агентствами. Це є гарним
+												рішенням для тих, хто готовий
+												платити винагороду за
+												працевлаштованого кандидата.
 											</p>
 										</div>
 									</div>
@@ -600,9 +686,7 @@
 								<div
 									class="accordion-trigger flex w-full items-center justify-between gap-2 overflow-hidden py-5 md:gap-10 md:py-6">
 									<span class="font-semibold md:text-xl">
-										Чому я маю висилати Вам документи,
-										навіщо ваш сервіс перевіряє документи
-										рекрутерів та агентств?
+										Ці рекрутери є співробітниками Rehire?
 									</span>
 									<!-- Icon -->
 									<div class="flex">
@@ -629,10 +713,12 @@
 										<div class="-mt-1 pb-5 md:pb-6">
 											<p
 												class="text-sm text-[#5D6D85] md:text-xl">
-												Lorem ipsum dolor sit amet
-												consectetur adipisicing elit.
-												Cupiditate aut reprehenderit
-												quisquam ad quae porro?
+												Ні, ці рекрутери не є
+												співробітниками Rehire. Сервіс
+												Rehire є платформою, на якій Ви
+												маєте можливість почати
+												співпрацю із перевіреними
+												рекрутерами або агентствами.
 											</p>
 										</div>
 									</div>
@@ -645,8 +731,8 @@
 								<div
 									class="accordion-trigger flex w-full items-center justify-between gap-2 overflow-hidden py-5 md:gap-10 md:py-6">
 									<span class="font-semibold md:text-xl">
-										Хто публікує вакансії і чи вони від
-										реальних роботодавців?
+										З чого потрібно почати, аби
+										співпрацювати з рекрутерами?
 									</span>
 									<!-- Icon -->
 									<div class="flex">
@@ -673,55 +759,13 @@
 										<div class="-mt-1 pb-5 md:pb-6">
 											<p
 												class="text-sm text-[#5D6D85] md:text-xl">
-												Lorem ipsum dolor sit amet
-												consectetur adipisicing elit.
-												Cupiditate aut reprehenderit
-												quisquam ad quae porro?
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Accrodion Item -->
-							<div
-								class="accordion-item group grid cursor-pointer flex-col border-b border-b-[#DFE3E9] last:border-b-0">
-								<!-- Accrodion Trigger -->
-								<div
-									class="accordion-trigger flex w-full items-center justify-between gap-2 overflow-hidden py-5 md:gap-10 md:py-6">
-									<span class="font-semibold md:text-xl">
-										На які спеціальності у Вас публікуються
-										вакансії?
-									</span>
-									<!-- Icon -->
-									<div class="flex">
-										<!-- Arrow Icon -->
-										<svg
-											class="accordion-img transition-transform duration-300 group-[.active]:-rotate-90"
-											width="18"
-											height="17"
-											viewBox="0 0 18 17"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg">
-											<path
-												d="M17.125 8.5C17.125 9.04688 16.6953 9.4375 16.1875 9.4375H9.9375V15.6875C9.9375 16.2344 9.50781 16.6641 9 16.6641C8.45312 16.6641 8.0625 16.2344 8.0625 15.6875V9.4375H1.8125C1.26562 9.4375 0.875 9.04688 0.875 8.53906C0.875 7.99219 1.26562 7.5625 1.8125 7.5625H8.0625V1.3125C8.0625 0.804688 8.45312 0.414062 9 0.414062C9.50781 0.414062 9.9375 0.804688 9.9375 1.3125V7.5625H16.1875C16.6953 7.5625 17.125 7.99219 17.125 8.5Z"
-												class="group-[.active]:fill-darkblue"
-												fill="#238CAA" />
-										</svg>
-									</div>
-								</div>
-
-								<!-- Accrodion Content -->
-								<div
-									class="accordion-content grid grid-rows-[0fr] transition-all duration-300 group-[.active]:grid-rows-[1fr]">
-									<div class="overflow-hidden">
-										<div class="-mt-1 pb-5 md:pb-6">
-											<p
-												class="text-sm text-[#5D6D85] md:text-xl">
-												Lorem ipsum dolor sit amet
-												consectetur adipisicing elit.
-												Cupiditate aut reprehenderit
-												quisquam ad quae porro?
+												Передусім Вам потрібно
+												зареєструватись і виставити
+												вакансії, а згодом будете
+												отримувати пропозиції співпраці
+												від рекрутерів. Після
+												підтвердження співпраці рекрутер
+												буде пропонувати кандидатів.
 											</p>
 										</div>
 									</div>
@@ -735,8 +779,7 @@
 								<div
 									class="accordion-trigger flex w-full items-center justify-between gap-2 overflow-hidden py-5 md:gap-10 md:py-6">
 									<span class="font-semibold md:text-xl">
-										Чи може рекрутер без досвіду
-										користуватись вашим сервісом?
+										Мені підійшов кандидат, що далі?
 									</span>
 									<!-- Icon -->
 									<div class="flex">
@@ -763,10 +806,15 @@
 										<div class="-mt-1 pb-5 md:pb-6">
 											<p
 												class="text-sm text-[#5D6D85] md:text-xl">
-												Lorem ipsum dolor sit amet
-												consectetur adipisicing elit.
-												Cupiditate aut reprehenderit
-												quisquam ad quae porro?
+												Якщо запропонований рекрутером
+												кандидат Вам підійшов, далі
+												потрібно встановити з ним
+												контакт і почати процес
+												працевлаштування. Обов’язково
+												виставляйте статуси по
+												кандидату, щоб і Ви і рекрутер
+												розуміли на якому етапі він
+												зараз знаходиться.
 											</p>
 										</div>
 									</div>
@@ -780,8 +828,8 @@
 								<div
 									class="accordion-trigger flex w-full items-center justify-between gap-2 overflow-hidden py-5 md:gap-10 md:py-6">
 									<span class="font-semibold md:text-xl">
-										Чи Ваш сайт перевіряє умови праці, житла
-										і документи роботодавця?
+										Чи потрібно підписувати договір з
+										рекрутерами?
 									</span>
 									<!-- Icon -->
 									<div class="flex">
@@ -808,10 +856,11 @@
 										<div class="-mt-1 pb-5 md:pb-6">
 											<p
 												class="text-sm text-[#5D6D85] md:text-xl">
-												Lorem ipsum dolor sit amet
-												consectetur adipisicing elit.
-												Cupiditate aut reprehenderit
-												quisquam ad quae porro?
+												Ні, жодних договорів підписувати
+												не потрібно. Наш сервіс покриває
+												усі фінансово-юридичні питання,
+												тому розрахунки з рекрутерами
+												ведемо ми.
 											</p>
 										</div>
 									</div>
@@ -825,9 +874,8 @@
 								<div
 									class="accordion-trigger flex w-full items-center justify-between gap-2 overflow-hidden py-5 md:gap-10 md:py-6">
 									<span class="font-semibold md:text-xl">
-										Чи будуть роботодавці бачити мій
-										профіль, чи зможуть вони зі мною
-										зв’язатись?
+										Коли і як здійснювати оплату за послуги
+										рекрутера?
 									</span>
 									<!-- Icon -->
 									<div class="flex">
@@ -854,54 +902,15 @@
 										<div class="-mt-1 pb-5 md:pb-6">
 											<p
 												class="text-sm text-[#5D6D85] md:text-xl">
-												Lorem ipsum dolor sit amet
-												consectetur adipisicing elit.
-												Cupiditate aut reprehenderit
-												quisquam ad quae porro?
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Accrodion Item -->
-							<div
-								class="accordion-item group grid cursor-pointer flex-col border-b border-b-[#DFE3E9] last:border-b-0">
-								<!-- Accrodion Trigger -->
-								<div
-									class="accordion-trigger flex w-full items-center justify-between gap-2 overflow-hidden py-5 md:gap-10 md:py-6">
-									<span class="font-semibold md:text-xl">
-										Коли я отримаю гроші за робітника?
-									</span>
-									<!-- Icon -->
-									<div class="flex">
-										<!-- Arrow Icon -->
-										<svg
-											class="accordion-img transition-transform duration-300 group-[.active]:-rotate-90"
-											width="18"
-											height="17"
-											viewBox="0 0 18 17"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg">
-											<path
-												d="M17.125 8.5C17.125 9.04688 16.6953 9.4375 16.1875 9.4375H9.9375V15.6875C9.9375 16.2344 9.50781 16.6641 9 16.6641C8.45312 16.6641 8.0625 16.2344 8.0625 15.6875V9.4375H1.8125C1.26562 9.4375 0.875 9.04688 0.875 8.53906C0.875 7.99219 1.26562 7.5625 1.8125 7.5625H8.0625V1.3125C8.0625 0.804688 8.45312 0.414062 9 0.414062C9.50781 0.414062 9.9375 0.804688 9.9375 1.3125V7.5625H16.1875C16.6953 7.5625 17.125 7.99219 17.125 8.5Z"
-												class="group-[.active]:fill-darkblue"
-												fill="#238CAA" />
-										</svg>
-									</div>
-								</div>
-
-								<!-- Accrodion Content -->
-								<div
-									class="accordion-content grid grid-rows-[0fr] transition-all duration-300 group-[.active]:grid-rows-[1fr]">
-									<div class="overflow-hidden">
-										<div class="-mt-1 pb-5 md:pb-6">
-											<p
-												class="text-sm text-[#5D6D85] md:text-xl">
-												Lorem ipsum dolor sit amet
-												consectetur adipisicing elit.
-												Cupiditate aut reprehenderit
-												quisquam ad quae porro?
+												Оплата за кандидата здійснюється
+												тоді, як він пройде
+												випробувальний термін і Ви
+												будете готові за нього здійснити
+												оплату. Наш сервіс виставить
+												фактуру для оплати, а згодом
+												буде доступна можливість
+												здійснювати оплати онлайн
+												карткою.
 											</p>
 										</div>
 									</div>
@@ -909,15 +918,82 @@
 							</div>
 						</div>
 
-						<div class="mt-3 flex justify-center md:mt-12">
-							<a class="btn" href="#">Реєстрація</a>
+						<div
+							class="mt-3 flex flex-col items-center justify-center gap-6 md:mt-12">
+							<a class="btn px-[60px] py-3" href="#">
+								Реєстрація
+							</a>
+							<a class="hidden md:block" href="#">
+								<img
+									src="./img/powered-logo.svg"
+									alt="powered logo" />
+							</a>
+						</div>
+					</div>
+				</section>
+
+				<!-- Залишились питання? -->
+				<section>
+					<div class="container">
+						<div
+							class="flex flex-col items-center justify-center bg-[url('../img/question.jpg')] bg-cover bg-center bg-no-repeat px-[22px] py-10 md:p-14">
+							<div class="space-y-6">
+								<h2 class="text-center">Залишились питання?</h2>
+								<p class="text-center">
+									Залиште заявку і ми проведемо презентацію
+									нашого сервісу.
+								</p>
+							</div>
+							<a class="btn mx-auto mt-10 md:mt-12" href="#">
+								Залишити заявку
+							</a>
+						</div>
+					</div>
+				</section>
+
+				<!-- Шукаєте працівників? -->
+				<section
+					class="relative overflow-hidden py-[300px] md:py-0 lg:py-14">
+					<!-- Left -->
+					<div
+						class="absolute left-1/2 top-0 -z-10 size-[382px] -translate-x-1/2 md:-left-[160px] md:top-0 md:translate-x-0 lg:left-5 lg:top-[60px]">
+						<img
+							class="absolute inset-0 z-0"
+							src="./img/Left-workers.png"
+							alt="img" />
+					</div>
+					<!-- Right -->
+					<div
+						class="absolute bottom-0 left-1/2 -z-10 size-[382px] -translate-x-1/2 md:-right-[150px] md:-top-10 md:left-[unset] md:translate-x-0 lg:right-[60px] lg:top-0">
+						<img
+							class="absolute inset-0 z-0"
+							src="./img/Right-workers.png"
+							alt="img" />
+					</div>
+					<!-- Center -->
+					<div class="container">
+						<div
+							class="flex flex-col items-center justify-center pb-14">
+							<div class="max-w-[500px] space-y-6">
+								<h2 class="text-center">
+									Шукаєте працівників?
+								</h2>
+								<p class="text-center">
+									Перейдіть на наш сайт для роботодавців, щоб
+									публікувати вакансії та отримати доступ до
+									бази працівників.
+								</p>
+							</div>
+							<a class="btn mx-auto mt-10 md:mt-12" href="#">
+								Залишити заявку
+							</a>
 						</div>
 					</div>
 				</section>
 			</main>
 
 			<!-- Footer -->
-			<footer class="mt-14 bg-[#101219] py-6">
+			<footer class="bg-[#101219] py-6">
 				<div class="container">
 					<div
 						class="flex flex-col gap-[22px] md:flex-row lg:gap-[90px]">
@@ -941,14 +1017,14 @@
 									<a
 										class="text-white transition-colors hover:text-primary-hovered"
 										href="#">
-										Политика конфиденциальности
+										Політика конфіденційності
 									</a>
 								</li>
 								<li>
 									<a
 										class="text-white transition-colors hover:text-primary-hovered"
 										href="#">
-										Правила и условия сервиса
+										Правила і умови сервісу
 									</a>
 								</li>
 							</ul>
@@ -985,7 +1061,7 @@
 
 					<div
 						class="mt-6 flex items-center justify-between border-t border-t-footer-text pt-6 text-footer-text">
-						<p>Rehire Sp. z o. o.</p>
+						<p>Razem Sp. z o. o.</p>
 						<p>Copyright 2024 ©</p>
 					</div>
 				</div>
