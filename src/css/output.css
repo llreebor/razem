@@ -927,12 +927,20 @@ section {
   pointer-events: none;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
 
 .relative {
   position: relative;
+}
+
+.\!relative {
+  position: relative !important;
 }
 
 .-right-10 {
@@ -1009,6 +1017,42 @@ section {
 
 .top-\[30px\] {
   top: 30px;
+}
+
+.left-1 {
+  left: 0.25rem;
+}
+
+.top-5 {
+  top: 1.25rem;
+}
+
+.bottom-\[-532px\] {
+  bottom: -532px;
+}
+
+.-left-2 {
+  left: -0.5rem;
+}
+
+.-right-2 {
+  right: -0.5rem;
+}
+
+.-right-0 {
+  right: -0px;
+}
+
+.-right-8 {
+  right: -2rem;
+}
+
+.-right-12 {
+  right: -3rem;
+}
+
+.top-9 {
+  top: 2.25rem;
 }
 
 .-z-10 {
@@ -1181,6 +1225,10 @@ section {
   height: 100%;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .max-h-\[560px\] {
   max-height: 560px;
 }
@@ -1197,12 +1245,20 @@ section {
   max-height: 500px;
 }
 
+.max-h-\[744px\] {
+  max-height: 744px;
+}
+
 .min-h-16 {
   min-height: 4rem;
 }
 
 .min-h-full {
   min-height: 100%;
+}
+
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-10 {
@@ -1284,6 +1340,18 @@ section {
 
 .max-w-\[496px\] {
   max-width: 496px;
+}
+
+.max-w-\[970px\] {
+  max-width: 970px;
+}
+
+.max-w-\[387px\] {
+  max-width: 387px;
+}
+
+.max-w-\[790px\] {
+  max-width: 790px;
 }
 
 .flex-1 {
@@ -1563,6 +1631,11 @@ section {
      object-fit: contain;
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .p-0 {
   padding: 0px;
 }
@@ -1616,6 +1689,11 @@ section {
 .py-px {
   padding-top: 1px;
   padding-bottom: 1px;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .pb-10 {
@@ -2045,6 +2123,10 @@ section {
     max-height: 650px;
   }
 
+  .md\:w-full {
+    width: 100%;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2153,6 +2235,10 @@ section {
     margin-top: 34px;
   }
 
+  .lg\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
   .lg\:max-h-\[660px\] {
     max-height: 660px;
   }
@@ -2201,6 +2287,12 @@ section {
     margin-bottom: calc(2rem * var(--tw-space-y-reverse));
   }
 
+  .lg\:space-y-12 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(3rem * var(--tw-space-y-reverse));
+  }
+
   .lg\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -2231,12 +2323,30 @@ section {
     padding-bottom: 1.75rem;
   }
 
+  .lg\:py-\[60px\] {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .lg\:px-\[60px\] {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
   .lg\:pb-10 {
     padding-bottom: 2.5rem;
   }
 
   .lg\:pb-\[153px\] {
     padding-bottom: 153px;
+  }
+
+  .lg\:pt-3 {
+    padding-top: 0.75rem;
+  }
+
+  .lg\:pb-\[113px\] {
+    padding-bottom: 113px;
   }
 }
 
@@ -2255,6 +2365,10 @@ section {
 
   .xl\:top-\[104px\] {
     top: 104px;
+  }
+
+  .xl\:top-\[144px\] {
+    top: 144px;
   }
 
   .xl\:mx-0 {
@@ -2276,5 +2390,9 @@ section {
 
   .xl\:pb-\[150px\] {
     padding-bottom: 150px;
+  }
+
+  .xl\:pt-\[60px\] {
+    padding-top: 60px;
   }
 }
